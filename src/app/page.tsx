@@ -18,70 +18,54 @@ export default function LandingPage() {
         defaultButtonVariant="directional-hover"
         defaultTextAnimation="background-highlight"
         borderRadius="pill"
+        contentWidth="medium"
+        sizing="medium"
+        background="circleGradient"
+        cardStyle="glass-elevated"
+        primaryButtonStyle="gradient"
+        secondaryButtonStyle="glass"
+        headingFontWeight="normal"
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Get Quote",
-          id: "solution",
-        },
+          name: "Get Quote",          id: "solution"},
         {
-          name: "Contact Agent",
-          id: "contact",
-        },
+          name: "Contact Agent",          id: "contact"},
       ]}
       brandName="Legacy Life Coverage"
       button={{
-        text: "Get a Quote Today",
-        href: "https://form.jotform.com/261069280018151",
-      }}
+        text: "Get a Quote Today",        href: "https://form.jotform.com/261069280018151"}}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroBillboardCarousel
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       title="If Something Happens… Your Family Could Be Left Paying Thousands"
       description="Funeral costs can exceed $10,000—and those expenses don’t go away. They’re passed on to the people you love most. Serving 1.8 Million+ families nationwide."
       buttons={[
         {
-          text: "Speak With an Agent Today",
-          href: "https://form.jotform.com/261069280018151",
-        },
+          text: "Speak With an Agent Today",          href: "https://form.jotform.com/261069280018151"},
         {
-          text: "Get a Quote Today",
-          href: "https://form.jotform.com/261069280018151",
-        },
+          text: "Get a Quote Today",          href: "https://form.jotform.com/261069280018151"},
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/senior-marriage-spreading-their-arms_329181-14713.jpg",
-          imageAlt: "Concerned seniors",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/senior-marriage-spreading-their-arms_329181-14713.jpg",          imageAlt: "Concerned seniors"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/older-couple-sitting-retirement-home_23-2147817065.jpg",
-          imageAlt: "Family support",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/older-couple-sitting-retirement-home_23-2147817065.jpg",          imageAlt: "Family support"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/senior-couple-looking-each-other_23-2148394511.jpg",
-          imageAlt: "Professional agent",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/senior-couple-looking-each-other_23-2148394511.jpg",          imageAlt: "Professional agent"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-senior-couple-with-devices_23-2149046237.jpg",
-          imageAlt: "Peace of mind",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-senior-couple-with-devices_23-2149046237.jpg",          imageAlt: "Peace of mind"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/aged-woman-lying-man-legs-bed_23-2148033665.jpg",
-          imageAlt: "Security planning",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/aged-woman-lying-man-legs-bed_23-2148033665.jpg",          imageAlt: "Security planning"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/senior-couple-dancing-home_23-2149891523.jpg",
-          imageAlt: "Protecting legacy",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/senior-couple-dancing-home_23-2149891523.jpg",          imageAlt: "Protecting legacy"},
       ]}
     />
   </div>
@@ -93,9 +77,7 @@ export default function LandingPage() {
       description="We are a national provider dedicated to helping families prepare for the unexpected. With over 1.8 million families served, our licensed agents are here to guide you through affordable, no-exam coverage options."
       buttons={[
         {
-          text: "Get a Quote Today",
-          href: "https://form.jotform.com/261069280018151",
-        },
+          text: "Get a Quote Today",          href: "https://form.jotform.com/261069280018151"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/close-up-adorable-senior-couple-love_23-2148268539.jpg"
       imageAlt="Supportive environment"
@@ -109,34 +91,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "1",
-          label: "Expenses",
-          title: "Immediate Costs",
-          items: [
-            "Caskets & Urns",
-            "Cemetery Fees",
-            "Transport",
-          ],
+          id: "1",          label: "Expenses",          title: "Immediate Costs",          items: [
+            "Caskets & Urns",            "Cemetery Fees",            "Transport"],
         },
         {
-          id: "2",
-          label: "Impact",
-          title: "Debt Transfer",
-          items: [
-            "Credit Card Debt",
-            "Personal Loans",
-            "Long-term Interest",
-          ],
+          id: "2",          label: "Impact",          title: "Debt Transfer",          items: [
+            "Credit Card Debt",            "Personal Loans",            "Long-term Interest"],
         },
         {
-          id: "3",
-          label: "Solution",
-          title: "Insurance Coverage",
-          items: [
-            "Immediate Payouts",
-            "No Exam Options",
-            "Affordable Premiums",
-          ],
+          id: "3",          label: "Solution",          title: "Insurance Coverage",          items: [
+            "Immediate Payouts",            "No Exam Options",            "Affordable Premiums"],
         },
       ]}
       title="The Real Cost Most Families Aren’t Ready For"
@@ -151,9 +115,7 @@ export default function LandingPage() {
       description="Without coverage, children often inherit the responsibility for high-interest loans and unexpected costs. Protect your family's future and prevent passing on financial stress during their grief."
       buttons={[
         {
-          text: "Speak With an Agent Today",
-          href: "https://form.jotform.com/261069280018151",
-        },
+          text: "Speak With an Agent Today",          href: "https://form.jotform.com/261069280018151"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/parents-angry-clueless-son_23-2148414949.jpg"
       imageAlt="Concerned family"
@@ -164,56 +126,30 @@ export default function LandingPage() {
       <TestimonialCardOne
       textboxLayout="split"
       gridVariant="bento-grid"
+      animationType="slide-up"
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Margaret L.",
-          role: "Client",
-          company: "Legacy",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/aged-woman-sitting-kitchen-with-cup-smiling_23-2148216451.jpg",
-        },
+          id: "1",          name: "Margaret L.",          role: "Client",          company: "Legacy",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/aged-woman-sitting-kitchen-with-cup-smiling_23-2148216451.jpg"},
         {
-          id: "2",
-          name: "Robert T.",
-          role: "Client",
-          company: "Legacy",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-positive-senior-businesswoman-dreaming_1262-5348.jpg",
-        },
+          id: "2",          name: "Robert T.",          role: "Client",          company: "Legacy",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-positive-senior-businesswoman-dreaming_1262-5348.jpg"},
         {
-          id: "3",
-          name: "Linda K.",
-          role: "Client",
-          company: "Legacy",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-short-haired-mature-female-hitchhiker-carrying-backpack-sleeping-mat-posing-outdoors-with-high-road-cars-background-going-spend-vacations-wild-nature_343059-2342.jpg",
-        },
+          id: "3",          name: "Linda K.",          role: "Client",          company: "Legacy",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-short-haired-mature-female-hitchhiker-carrying-backpack-sleeping-mat-posing-outdoors-with-high-road-cars-background-going-spend-vacations-wild-nature_343059-2342.jpg"},
         {
-          id: "4",
-          name: "James W.",
-          role: "Client",
-          company: "Legacy",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/handheld-shot-happy-pensioner-preparing-exercise-physical-activity-portrait-senior-man-smiling-looking-camera-getting-ready-training-with-equipment_482257-33826.jpg",
-        },
+          id: "4",          name: "James W.",          role: "Client",          company: "Legacy",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/handheld-shot-happy-pensioner-preparing-exercise-physical-activity-portrait-senior-man-smiling-looking-camera-getting-ready-training-with-equipment_482257-33826.jpg"},
         {
-          id: "5",
-          name: "Sarah J.",
-          role: "Client",
-          company: "Legacy",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-patterned-blouse-holding-hand-head-while-looking-up-looking-happy-front-view_176474-31834.jpg",
-        },
+          id: "5",          name: "Sarah J.",          role: "Client",          company: "Legacy",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-patterned-blouse-holding-hand-head-while-looking-up-looking-happy-front-view_176474-31834.jpg"},
       ]}
       title="Trusted by Over 1.8 Million Families"
       description="Rated 4.9/5 by families across the country."
       buttons={[
         {
-          text: "Get a Quote Today",
-          href: "https://form.jotform.com/261069280018151",
-        },
+          text: "Get a Quote Today",          href: "https://form.jotform.com/261069280018151"},
       ]}
     />
   </div>
@@ -225,31 +161,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "1",
-          value: "Higher",
-          title: "Monthly Rates",
-          items: [
-            "Rates increase with age",
-            "Don't delay security",
-          ],
+          id: "1",          value: "Higher",          title: "Monthly Rates",          items: [
+            "Rates increase with age",            "Don't delay security"],
         },
         {
-          id: "2",
-          value: "Limited",
-          title: "Approval Options",
-          items: [
-            "Health changes quickly",
-            "Qualify while eligible",
-          ],
+          id: "2",          value: "Limited",          title: "Approval Options",          items: [
+            "Health changes quickly",            "Qualify while eligible"],
         },
         {
-          id: "3",
-          value: "Decreasing",
-          title: "Plan Coverage",
-          items: [
-            "Don't wait for decline",
-            "Secure your peace",
-          ],
+          id: "3",          value: "Decreasing",          title: "Plan Coverage",          items: [
+            "Don't wait for decline",            "Secure your peace"],
         },
       ]}
       title="Waiting Can Make It Worse"
@@ -264,34 +185,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "1",
-          label: "Process",
-          title: "No Medical Exam",
-          items: [
-            "Fast processing",
-            "Simple application",
-            "Minimal waiting",
-          ],
+          id: "1",          label: "Process",          title: "No Medical Exam",          items: [
+            "Fast processing",            "Simple application",            "Minimal waiting"],
         },
         {
-          id: "2",
-          label: "Benefit",
-          title: "Funeral Coverage",
-          items: [
-            "Covers costs fully",
-            "Prevents debt",
-            "Direct payouts",
-          ],
+          id: "2",          label: "Benefit",          title: "Funeral Coverage",          items: [
+            "Covers costs fully",            "Prevents debt",            "Direct payouts"],
         },
         {
-          id: "3",
-          label: "Affordability",
-          title: "Affordable Plans",
-          items: [
-            "Fixed premiums",
-            "Budget friendly",
-            "Secure now",
-          ],
+          id: "3",          label: "Affordability",          title: "Affordable Plans",          items: [
+            "Fixed premiums",            "Budget friendly",            "Secure now"],
         },
       ]}
       title="A Simple Way to Help Protect Your Family"
@@ -303,8 +206,7 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Final Step"
       title="The Last Thing Your Family Should Inherit Is a Bill"
       description="Speak with a licensed agent now to secure your coverage."
@@ -320,24 +222,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "1",
-          title: "Do I need a medical exam?",
-          content: "Many of our plans offer no-exam options for easier qualification.",
-        },
+          id: "1",          title: "Do I need a medical exam?",          content: "Many of our plans offer no-exam options for easier qualification."},
         {
-          id: "2",
-          title: "How are costs paid?",
-          content: "Benefits are paid directly to your beneficiaries to cover funeral and burial costs.",
-        },
+          id: "2",          title: "How are costs paid?",          content: "Benefits are paid directly to your beneficiaries to cover funeral and burial costs."},
         {
-          id: "3",
-          title: "How much does it cost?",
-          content: "Premiums depend on your age and health; contact us for a personalized, affordable quote.",
-        },
+          id: "3",          title: "How much does it cost?",          content: "Premiums depend on your age and health; contact us for a personalized, affordable quote."},
       ]}
       title="Frequently Asked Questions"
       description="Answers to your concerns."
       faqsAnimation="slide-up"
+      textboxLayout="default"
     />
   </div>
 
@@ -345,13 +239,9 @@ export default function LandingPage() {
       <FooterLogoReveal
       logoText="Generation Next Financial LLC"
       leftLink={{
-        text: "Privacy Policy",
-        href: "#",
-      }}
+        text: "Privacy Policy",        href: "#"}}
       rightLink={{
-        text: "Terms & Conditions",
-        href: "#",
-      }}
+        text: "Terms & Conditions",        href: "#"}}
     />
   </div>
       </ReactLenis>
