@@ -238,9 +238,9 @@ export default function LandingPage() {
       <FooterLogoReveal
       logoText=""
       leftLink={{
-        text: "Privacy Policy",        href: "#"}}
+        text: "Privacy Policy",        href: "https://legacylifecoverageprivacypolicy.carrd.co/"}}
       rightLink={{
-        text: "Terms & Conditions",        href: "#"}}
+        text: "Terms & Conditions",        href: "https://legacylifecoverageterms.carrd.co/"}}
     />
   </div>
       </ReactLenis>
