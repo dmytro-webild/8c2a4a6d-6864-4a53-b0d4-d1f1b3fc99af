@@ -57,9 +57,9 @@ export default function LandingPage() {
         {
           imageSrc: "http://img.b2bpic.net/free-photo/senior-marriage-spreading-their-arms_329181-14713.jpg",          imageAlt: "Concerned seniors"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/older-couple-sitting-retirement-home_23-2147817065.jpg",          imageAlt: "Family support"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CV1p6moMxc2HaAeVg3cKHU48Fe/uploaded-1776489003666-j1zllezq.png",          imageAlt: "Family support"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/senior-couple-looking-each-other_23-2148394511.jpg",          imageAlt: "Professional agent"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CV1p6moMxc2HaAeVg3cKHU48Fe/uploaded-1776542251510-bga5ikvp.png",          imageAlt: "Professional agent"},
         {
           imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-senior-couple-with-devices_23-2149046237.jpg",          imageAlt: "Peace of mind"},
         {
