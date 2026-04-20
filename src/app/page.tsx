@@ -236,7 +236,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterLogoReveal
-      logoText="Generation Next Financial LLC"
+      logoText=""
       leftLink={{
         text: "Privacy Policy",        href: "#"}}
       rightLink={{
