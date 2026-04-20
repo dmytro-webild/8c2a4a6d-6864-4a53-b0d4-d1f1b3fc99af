@@ -231,7 +231,6 @@ export default function LandingPage() {
       title="Frequently Asked Questions"
       description="Answers to your concerns."
       faqsAnimation="slide-up"
-      textboxLayout="default"
     />
   </div>
 
