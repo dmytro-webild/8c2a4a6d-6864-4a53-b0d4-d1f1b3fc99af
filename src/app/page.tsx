@@ -134,7 +134,7 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/aged-woman-sitting-kitchen-with-cup-smiling_23-2148216451.jpg"},
         {
           id: "2",          name: "Robert T.",          role: "Client",          company: "Legacy",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-positive-senior-businesswoman-dreaming_1262-5348.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CV1p6moMxc2HaAeVg3cKHU48Fe/uploaded-1776641699781-tq9rge6w.png"},
         {
           id: "3",          name: "Linda K.",          role: "Client",          company: "Legacy",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-short-haired-mature-female-hitchhiker-carrying-backpack-sleeping-mat-posing-outdoors-with-high-road-cars-background-going-spend-vacations-wild-nature_343059-2342.jpg"},
@@ -143,7 +143,7 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/handheld-shot-happy-pensioner-preparing-exercise-physical-activity-portrait-senior-man-smiling-looking-camera-getting-ready-training-with-equipment_482257-33826.jpg"},
         {
           id: "5",          name: "Sarah J.",          role: "Client",          company: "Legacy",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-patterned-blouse-holding-hand-head-while-looking-up-looking-happy-front-view_176474-31834.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CV1p6moMxc2HaAeVg3cKHU48Fe/uploaded-1776641470012-kvbzjgh3.png"},
       ]}
       title="Trusted by Over 1.8 Million Families"
       description="Rated 4.9/5 by families across the country."
