@@ -240,7 +240,7 @@ export default function LandingPage() {
       leftLink={{
         text: "Privacy Policy",        href: "https://legacylifecoverageprivacypolicy.carrd.co/"}}
       rightLink={{
-        text: "Terms & Conditions",        href: "#"}}
+        text: "Terms & Conditions",        href: "https://legacylifecoverageterms.carrd.co/"}}
     />
   </div>
       </ReactLenis>
