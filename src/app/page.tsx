@@ -61,9 +61,9 @@ export default function LandingPage() {
         {
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CV1p6moMxc2HaAeVg3cKHU48Fe/uploaded-1776542251510-bga5ikvp.png",          imageAlt: "Professional agent"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-senior-couple-with-devices_23-2149046237.jpg",          imageAlt: "Peace of mind"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CV1p6moMxc2HaAeVg3cKHU48Fe/uploaded-1776488990097-sce05l2t.png",          imageAlt: "Peace of mind"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/aged-woman-lying-man-legs-bed_23-2148033665.jpg",          imageAlt: "Security planning"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CV1p6moMxc2HaAeVg3cKHU48Fe/uploaded-1776488962109-ls77xa7f.png",          imageAlt: "Security planning"},
         {
           imageSrc: "http://img.b2bpic.net/free-photo/senior-couple-dancing-home_23-2149891523.jpg",          imageAlt: "Protecting legacy"},
       ]}
